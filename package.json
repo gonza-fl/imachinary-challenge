@@ -1,0 +1,34 @@
+{
+  "name": "imachinary-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dev:watch": "nodemon --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonza-fl/imachinary-challenge.git"
+  },
+  "keywords": [],
+  "author": "Gonzalo Flamenci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonza-fl/imachinary-challenge/issues"
+  },
+  "homepage": "https://github.com/gonza-fl/imachinary-challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0",
+    "sequelize": "^6.25.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
